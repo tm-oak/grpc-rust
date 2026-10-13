@@ -1,0 +1,13 @@
+[package]
+name = "encoding-retention-memory-probe"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[workspace]
+
+[dependencies]
+tonic = { path = "../../tonic", default-features = false, features = ["gzip"] }
+bytes = "1"
+http-body = "1"
+tokio-stream = "0.1"
